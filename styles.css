@@ -1,0 +1,137 @@
+/*=====================
+ global 
+======================*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+
+:root {
+	/* ---------theme colors (varibale)---------- */
+	--bg-offwhite: #f2f2f2;
+	--white: #fff;
+	--text-gray: #4d4e53;
+	--bg-gray: #f7f7f7;
+	--black: #000;
+	--transition: all 0.5s linear;
+	--ff-open-sans: "Open Sans", sans-serif;
+	--comments: #148f10;
+}
+
+*,
+::after,
+::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	line-height: 1.5;
+	font-size: 0.875rem;
+	font-family: var(--ff-open-sans);
+	color: var(--text-gray);
+	background: var(--white);
+}
+a:hover {
+	font-weight: bold;
+}
+code {
+	display: block;
+	background: var(--bg-gray);
+	padding: 1rem;
+	border-radius: 0.5rem;
+}
+
+.comment {
+	color: var(--comments);
+}
+
+/*=====================
+nav - bar
+======================*/
+
+header {
+	color: black;
+	margin: 0;
+	font-size: 1.8em;
+}
+
+#navbar header {
+	text-align: center;
+}
+
+#navbar ul {
+	border: 2.75px solid;
+	height: 210px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+#navbar li {
+	color: var(--text-gray);
+	border-top: 1.5px solid;
+	list-style: none;
+	width: 100%;
+}
+
+#navbar a {
+	display: block;
+	padding: 10px 30px;
+	color: var(--text-gray);
+	font-size: 1rem;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/*=====================
+main section
+======================*/
+#main-doc {
+	position: absolute;
+	margin-left: 0.5rem;
+	padding: 20px;
+	margin-bottom: 110px;
+}
+
+.main-section {
+	margin-bottom: 2rem;
+}
+
+.main-section article {
+	margin: 15px;
+	font-size: 1rem;
+}
+
+.main-section li {
+	margin: 1rem 0;
+}
+
+.main-section p {
+	margin: 0.8rem 0;
+}
+
+/*=====================
+large screen
+======================*/
+
+@media (min-width: 800px) {
+	#navbar {
+		position: fixed;
+		min-width: 290px;
+		top: 0px;
+		left: 0px;
+		width: 350px;
+		height: 100%;
+		border-right: solid;
+		border-color: rgba(93, 163, 163, 0.5);
+	}
+	header {
+		margin: 10px;
+	}
+
+	#navbar ul {
+		height: 90%;
+		border: none;
+	}
+
+	#main-doc {
+		margin-left: 360px;
+	}
+}

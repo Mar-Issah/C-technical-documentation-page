@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Documentation Page</title>
+
+		<!-- styles -->
+		<link rel="stylesheet" href="/styles.css" />
+	</head>
+	<body>
+		<nav id="navbar">
+			<!-- navigation -->
+			<header>C# Documentation</header>
+			<ul>
+				<li>
+					<a href="#introduction" class="nav-link">Introduction</a>
+				</li>
+				<li>
+					<a href="#oop" class="nav-link">Object-Oriented programming</a>
+				</li>
+				<li>
+					<a href="#hello-world" class="nav-link">Hello world</a>
+				</li>
+				<li>
+					<a href="#variables" class="nav-link">Variables</a>
+				</li>
+				<li>
+					<a href="#declare-assign" class="nav-link"
+						>Variable declaration and assignement</a
+					>
+				</li>
+				<li>
+					<a href="#types" class="nav-link">Types and variables</a>
+				</li>
+
+				<li>
+					<a href="#if-else" class="nav-link">If- else statement</a>
+				</li>
+				<li>
+					<a href="#while" class="nav-link">While statement</a>
+				</li>
+				<li>
+					<a href="#do-while" class="nav-link">Do - while statement</a>
+				</li>
+				<li>
+					<a href="#switch" class="nav-link">Switch statement</a>
+				</li>
+				<li>
+					<a href="#method" class="nav-link">Method</a>
+				</li>
+				<li>
+					<a href="#class" class="nav-link">Class</a>
+				</li>
+				<li>
+					<a href="#objects" class="nav-link">Objects</a>
+				</li>
+				<li>
+					<a href="#reference" class="nav-link">References</a>
+				</li>
+			</ul>
+		</nav>
+		<!-- end of navigation -->
+
+		<!-- main-section -->
+		<main id="main-doc">
+			<section class="main-section" id="introduction">
+				<header>Introduction</header>
+				<article>
+					<p>
+						C# (pronounced "See Sharp") is a modern, object-oriented, and
+						type-safe programming language. C# has its roots in the C family of
+						languages and will be immediately familiar to C, C++, Java, and
+						JavaScript programmers.
+					</p>
+					<p>
+						Several C# features aid in the construction of robust and durable
+						applications. Garbage collection automatically reclaims memory
+						occupied by unreachable unused objects. Exception handling provides
+						a structured and extensible approach to error detection and
+						recovery. Lambda expressions support functional programming
+						techniques. Query syntax creates a common pattern for working with
+						data from any source. Language support for asynchronous operations
+						provides syntax for building distributed systems. Pattern matching
+						provides syntax to easily separate data from algorithms in modern
+						distributed systems.
+					</p>
+				</article>
+			</section>
+
+			<section class="main-section" id="oop">
+				<header>Object-Oriented programming</header>
+				<article>
+					<p>
+						C# is an object-oriented language. Four of the key techniques used
+						in object-oriented programming are:
+					</p>
+					<ul>
+						<li>
+							<i>Abstraction</i> means hiding the unnecessary details from type
+							consumers.
+						</li>
+						<li>
+							<i>Encapsulation</i> means that a group of related properties,
+							methods, and other members are treated as a single unit or object.
+						</li>
+						<li>
+							<i>Inheritance</i> describes the ability to create new classes
+							based on an existing class.
+						</li>
+						<li>
+							<i>Polymorphism</i> means that you can have multiple classes that
+							can be used interchangeably, even though each class implements the
+							same properties or methods in different ways.
+						</li>
+					</ul>
+				</article>
+			</section>
+
+			<section class="main-section" id="hello-world">
+				<header>Hello World</header>
+				<article>
+					<p>
+						The &quot;Hello, World&quot; program is traditionally used to
+						introduce a programming language. Here it is in C#:
+					</p>
+					<code>
+						using System;<br />
+						class Hello { static void Main() { Console.WriteLine("Hello,
+						World"); } }</code
+					>
+				</article>
+			</section>
+
+			<section class="main-section" id="variables">
+				<header>Variables</header>
+				<article>
+					<p>
+						Variables represent storage locations. Every variable has a type
+						that determines what values can be stored in the variable. C# is a
+						type-safe language, and the C# compiler guarantees that values
+						stored in variables are always of the appropriate type
+					</p>
+				</article>
+			</section>
+
+			<section class="main-section" id="declare-assign">
+				<header>Variable declaration and assignment</header>
+				<article>
+					<p>
+						When you declare a variable or constant in a program, you must
+						either specify its type or use the var keyword to let the compiler
+						infer the type. The following example shows some variable
+						declarations that use both built-in numeric types and complex
+						user-defined types:
+					</p>
+					<p>
+						The assignment operator = assigns the value of its right-hand
+						operand to a variable, a property, or an indexer element given by
+						its left-hand operand. The result of an assignment expression is the
+						value assigned to the left-hand operand. The type of the right-hand
+						operand must be the same as the type of the left-hand operand or
+						implicitly convertible to it.
+					</p>
+					<p>
+						The following example shows some variable declarations and
+						assignments:
+					</p>
+
+					<code>
+						<span class="comment">//Declaration</span><br />
+						float price;<br />
+						string name;<br />
+						boolean isReady;<br />
+						<br />
+						<br />
+						<span class="comment">//Assignments</span><br />
+						price = 36.80;<br />
+						name = "John";<br />
+						isReady = "true";<br />
+					</code>
+				</article>
+			</section>
+
+			<section class="main-section" id="types">
+				<header>Types and variable</header>
+				<article>
+					<p>
+						There are two kinds of types in C#: value types and reference types.
+						Variables of value types directly contain their data whereas
+						variables of reference types store references to their data, the
+						latter being known as objects. With reference types, it's possible
+						for two variables to reference the same object and possible for
+						operations on one variable to affect the object referenced by the
+						other variable. With value types, the variables each have their own
+						copy of the data, and it isn't possible for operations on one to
+						affect the other (except for ref and out parameter variables).
+					</p>
+
+					<p>
+						An identifier is a variable name. An identifier is a sequence of
+						unicode characters without any whitespace. An identifier may be a C#
+						reserved word, if it is prefixed by @. That can be useful when
+						interacting with other languages.
+					</p>
+
+					<p>
+						C#'s value types are further divided into simple types, enum types,
+						struct types, nullable value types and tuple value types. C#'s
+						reference types are further divided into class types, interface
+						types, array types, and delegate types.
+					</p>
+				</article>
+			</section>
+
+			<section class="main-section" id="if-else">
+				<header>If- Else statement</header>
+				<article>
+					<p>
+						An if statement identifies which statement to run based on the value
+						of a Boolean expression. In the following example, the bool variable
+						condition is set to true and then checked in the if statement. The
+						output is The variable is set to true.
+					</p>
+
+					<code>
+						bool condition = true;<br />
+
+						if (condition)<br />
+						{ <br />
+						Console.WriteLine("The variable is set to true.");<br />
+						}else{<br />
+						Console.WriteLine("The variable is set to false.");<br />
+						}<br />
+					</code>
+					<p>
+						In an if-else statement, if condition evaluates to true, the
+						then-statement runs. If condition is false, the else-statement runs.
+						Because condition can’t be simultaneously true and false, the
+						then-statement and the else-statement of an if-else statement can
+						never both run. After the then-statement or the else-statement runs,
+						control is transferred to the next statement after the if statement.
+					</p>
+				</article>
+			</section>
+
+			<section class="main-section" id="while">
+				<header>While statement</header>
+				<article>
+					<p>
+						The while statement executes a statement or a block of statements
+						while a specified Boolean expression evaluates to true. Because that
+						expression is evaluated before each execution of the loop, a while
+						loop executes zero or more times.
+					</p>
+					<p>
+						At any point within the while statement block, you can break out of
+						the loop by using the break statement.
+					</p>
+					<p>
+						You can step directly to the evaluation of the while expression by
+						using the continue statement. If the expression evaluates to true,
+						execution continues at the first statement in the loop. Otherwise,
+						execution continues at the first statement after the loop.
+					</p>
+					<code>
+						int n = 0;<br />
+						while (n &lt; 5)<br />
+						{<br />
+						Console.WriteLine(n);<br />
+						n++;<br />
+						}<br />
+					</code>
+					<p>
+						In an if-else statement, if condition evaluates to true, the
+						then-statement runs. If condition is false, the else-statement runs.
+						Because condition can’t be simultaneously true and false, the
+						then-statement and the else-statement of an if-else statement can
+						never both run. After the then-statement or the else-statement runs,
+						control is transferred to the next statement after the if statement.
+					</p>
+				</article>
+			</section>
+
+			<section class="main-section" id="do-while">
+				<header>Do - while statement</header>
+				<article>
+					<p>
+						The do statement executes a statement or a block of statements while
+						a specified Boolean expression evaluates to true. Because that
+						expression is evaluated after each execution of the loop, a do-while
+						loop executes one or more times. This differs from the while loop,
+						which executes zero or more times.
+					</p>
+					<p>
+						At any point within the do statement block, you can break out of the
+						loop by using the break statement.
+					</p>
+					<p>
+						You can step directly to the evaluation of the while expression by
+						using the continue statement. If the expression evaluates to true,
+						execution continues at the first statement in the loop. Otherwise,
+						execution continues at the first statement after the loop.
+					</p>
+					<p>The following example shows the usage of the while statement.</p>
+					<code>
+						int n = 0;<br />
+						do<br />
+						{<br />
+						Console.WriteLine(n);<br />
+						n++;<br />
+						} <br />
+						while (n < 5);<br />
+					</code>
+				</article>
+			</section>
+
+			<section class="main-section" id="switch">
+				<header>Switch statement</header>
+				<article>
+					<p>
+						Switch is a selection statement that chooses a single switch section
+						to execute from a list of candidates based on a pattern match with
+						the match expression.
+					</p>
+					<p>
+						The switch statement is often used as an alternative to an if-else
+						construct if a single expression is tested against three or more
+						conditions
+					</p>
+					<code>
+						using System;<br />
+
+						public class Example{<br />
+						&emsp;public static void Main(){<br />
+						&emsp;&emsp;int caseSwitch = 1;<br /><br />
+
+						&emsp;&emsp;switch (caseSwitch){<br />
+						&emsp;&emsp;case 1:<br />
+						&emsp;&emsp;Console.WriteLine("Case 1");<br />
+						&emsp;&emsp;break;<br />
+						&emsp;&emsp;case 2:<br />
+						&emsp;&emsp;Console.WriteLine("Case 2");<br />
+						&emsp;&emsp;break;<br />
+						&emsp;&emsp;default:<br />
+						&emsp;&emsp;Console.WriteLine("Default case");<br />
+						&emsp;&emsp;break;}<br />
+						&emsp;}<br />
+						}<br />
+					</code>
+				</article>
+			</section>
+
+			<section class="main-section" id="method">
+				<header>Method</header>
+				<article>
+					<p>
+						A method is a code block that contains a series of statements. A
+						program causes the statements to be executed by calling the method
+						and specifying any required method arguments. In C#, every executed
+						instruction is performed in the context of a method. The Main method
+						is the entry point for every C# application and it's called by the
+						common language runtime (CLR) when the program is started.
+					</p>
+					<p>
+						Methods are declared in a class, struct, or interface by specifying
+						the access level such as public or private, optional modifiers such
+						as abstract or sealed, the return value, the name of the method, and
+						any method parameters. These parts together are the signature of the
+						method.<br />Below is an example of how to create a method in C#
+					</p>
+					<code>
+						public void StartEngine() {<span class="comment"
+							>/* Method statements here */ </span
+						>}<br />
+					</code>
+				</article>
+			</section>
+
+			<section class="main-section" id="class">
+				<header>Class</header>
+				<article>
+					<p>
+						When you define a class, you define a blueprint for a data type.
+					</p>
+					<p>
+						Classes are declared by using the class keyword followed by a unique
+						identifier, as shown in the following example:
+					</p>
+					<code>
+						public class Customer <br />
+						{<br />
+						<span class="comment"
+							>// Fields, properties, methods and events go here...</span
+						><br />
+						}<br />
+					</code>
+				</article>
+			</section>
+			<section class="main-section" id="objects">
+				<header>Objects</header>
+				<article>
+					<p>
+						Although they are sometimes used interchangeably, a class and an
+						object are different things. A class defines a type of object, but
+						it is not an object itself. An object is a concrete entity based on
+						a class, and is sometimes referred to as an instance of a class.
+					</p>
+					<p>
+						Objects can be created by using the new keyword followed by the name
+						of the class that the object will be based on, like this:
+					</p>
+					<code> Customer object1 = new Customer(); </code>
+					<p>
+						When an instance of a class is created, a reference to the object is
+						passed back to the programmer.
+					</p>
+				</article>
+			</section>
+			<section class="main-section" id="reference">
+				<header>References</header>
+				<article>
+					<ul>
+						<li>
+							All the documentation in this page is taken from
+							<a
+								href="https://docs.microsoft.com/en-us/dotnet/csharp/"
+								target="_blank"
+								>Microsoft Docs</a
+							>
+						</li>
+					</ul>
+				</article>
+			</section>
+		</main>
+		<!-- end of  main-section -->
+	</body>
+</html>
