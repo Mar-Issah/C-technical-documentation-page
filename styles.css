@@ -53,7 +53,9 @@ header {
 	margin: 0;
 	font-size: 1.8em;
 }
-
+#navbar {
+	background-color: #a9acbd;
+}
 #navbar header {
 	text-align: center;
 }
