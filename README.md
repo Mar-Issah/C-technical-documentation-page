@@ -31,7 +31,6 @@ This is a simple web application web application project mainly to practice my H
 3. Install live server extension
 4. Open index.html file with live server
 
-
 <br>
 
 <!-- USAGE EXAMPLES -->
@@ -39,7 +38,6 @@ This is a simple web application web application project mainly to practice my H
 ## Project View
 
 [Click here](https://codepen.io/marsiya-issah/full/MWjwbEN) to view project on CodePen
-
 
 <br>
 <!-- CONTRIBUTING -->
