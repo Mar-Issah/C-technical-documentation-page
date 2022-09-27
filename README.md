@@ -1,5 +1,5 @@
 # C\# Technical Documentation page
-A technical documentation page on C#
+A technical documentation page on C#.
 
 ## About The Project
 
