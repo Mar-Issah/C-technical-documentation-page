@@ -1,4 +1,4 @@
-# C\# Technical Documentation page
+# C\# Technical Documentation Page
 A technical documentation page on C#.
 
 ## About The Project
