@@ -23,7 +23,7 @@ This is a simple web application web application project mainly to practice my H
 
 ### Installation
 
-1. Clone the repo on your local machine
+1. Clone the repo on your local machine.
    ```sh
    git clone https://github.com/Mar-Issah/CSharp-technical-documentation-page.git
    ```
