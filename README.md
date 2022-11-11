@@ -29,7 +29,7 @@ This is a simple web application web application project mainly to practice my H
    ```
 2. Dowload and install [Visual Studio Code](https://code.visualstudio.com/).
 3. Install live server extension.
-4. Open index.html file with live server
+4. Open index.html file with live server.
 
 <br>
 
