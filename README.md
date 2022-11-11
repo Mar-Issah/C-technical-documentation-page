@@ -27,7 +27,7 @@ This is a simple web application web application project mainly to practice my H
    ```sh
    git clone https://github.com/Mar-Issah/CSharp-technical-documentation-page.git
    ```
-2. Dowload and install [Visual Studio Code](https://code.visualstudio.com/)
+2. Dowload and install [Visual Studio Code](https://code.visualstudio.com/).
 3. Install live server extension
 4. Open index.html file with live server
 
