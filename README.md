@@ -37,7 +37,7 @@ This is a simple web application web application project mainly to practice my H
 
 ## Project View
 
-[Click here](https://codepen.io/marsiya-issah/full/MWjwbEN) to view project on CodePen
+[Click here](https://codepen.io/marsiya-issah/full/MWjwbEN) to view project on CodePen.
 
 <br>
 <!-- CONTRIBUTING -->
@@ -47,7 +47,7 @@ This is a simple web application web application project mainly to practice my H
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project.
-2. Create your Feature Branch (`git checkout -b feature/awesomeFeature`)
+2. Create your Feature Branch (`git checkout -b feature/awesomeFeature`).
 3. Commit your Changes (`git commit -m 'Added some awesome features'`)
 4. Push to the Branch (`git push origin feature/awesomeFeature`)
 5. Open a Pull Request
